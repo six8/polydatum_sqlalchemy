@@ -22,7 +22,7 @@ def main():
         ],
         long_description=open('README.rst').read(),
         install_requires = [
-            'polydatum',
+            'polydatum>=0.8',
             'sqlalchemy',
         ],        
     )
